@@ -1,0 +1,49 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8B0000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+li a.active {
+  background-color: grey;
+  color: white;
+}
+
+body {
+  background-image: url(https://cdn3.vectorstock.com/i/1000x1000/98/47/pumpkin-pattern-background-leaves-autumn-vector-17179847.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+ background-position: center center;
+ background-attachment: fixed;
+}
+
+footer {
+  display: block;
+}
+
+footer {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  text-align: center;
+  font-size: 1em;
+  border-top: 3px solid black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
